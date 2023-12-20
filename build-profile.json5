@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_OneLx_com.example.onelx_2850086000528827243.cer",
+          "storePassword": "0000001B4BE287D276C7F8176F0502AD9BA299DA34943AB87485EBF9C968D0C83D318C15D6B5291E103B69",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BD03BB227CF7D0F2495660DEE92782B8919E31163E4D79E024A6F06E4B2E2AC7178AC063D7AAB85",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_OneLx_com.example.onelx_2850086000528827243.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_OneLx_com.example.onelx_2850086000528827243.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
